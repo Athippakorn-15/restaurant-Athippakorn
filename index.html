@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-pink-50">
+
+    <nav class="bg text-amber-900 p-8">
+        <div class="flex lg:flex-row flex-col justify-between items-center">
+            <h1 class="text-xl font-bold">FOODIE HOUSE</h1>
+
+            <div class="flex gap-6">
+                <a href="#" class="hover:text-blue-300">หน้าแรก</a>
+                <a href="#" class="hover:text-blue-300">สินค้า</a>
+                <a href="#" class="hover:text-blue-300">เกี่ยวกับเรา</a>
+                <a href="#" class="hover:text-blue-300">ติดต่อเรา</a>
+            </div>
+        </div>
+    </nav>
+    <nav class="bg-pink-100 text-amber-900 text-center p-14">
+        <h1 class="text-4xl font-bold mb-4">ยินดีต้อนรับสู่ FOODIE HOUSE</h1>
+        <p>อร่อย สดใหม่ ใส่ใจทุกเมนู</p>
+    </nav>
+
+    <div class="text-amber-900 lg:text-2xl md:text-xl sm:text-lg font-bold text-center mt-6">
+        อาหารจานเดี่ยว
+    </div>
+    <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ข้าวกะเพราหมูไข่ดาว.jpg" alt="image/ข้าวกะเพราหมูไข่ดาว"
+                class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ข้าวกะเพราหมูไข่ดาว</h2>
+            <p class="text-blue-600 font-bold mt-3">60 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4" class="w-full h-58 object-cover rounded">
+            <img src="image/ข้าวผัดกุ้ง.jpg" alt="image/ข้าวผัดกุ้ง">
+            <h2 class="text-xl font-semibold mt-4">ข้าวผัดกุ้ง</h2>
+            <p class="text-blue-600 font-bold mt-3">60 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ข้าวหมูกระเทียม.jpg" alt="image/ข้าวหมูกระเทียม" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ข้าวหมูกระเทียม</h2>
+            <p class="text-blue-600 font-bold mt-3">55 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ข้าวแกงเขียวหวานไก่.jpg" alt="image/ข้าวแกงเขียวหวานไก่"
+                class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ข้าวแกงเขียวหวานไก่</h2>
+            <p class="text-blue-600 font-bold mt-3">55 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ข้าวไข่เจียวหมูสับ.jpg" alt="image/ข้าวไข่เจียวหมูสับ"
+                class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ข้าวไข่เจียวหมูสับ</h2>
+            <p class="text-blue-600 font-bold mt-3">55 บาท</p>
+        </div>
+    </div>
+
+    <div class="text-amber-900 lg:text-2xl md:text-xl sm:text-lg font-bold text-center mt-6">
+        อาหารเส้น
+    </div>
+    <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ก๋วยเตี๋ยวต้มยำ.jpg" alt="image/ก๋วยเตี๋ยวต้มยำ" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ก๋วยเตี๋ยวต้มยำ</h2>
+            <p class="text-blue-600 font-bold mt-3">50 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ก๋วยเตี๋ยวเรือหมู.jpg" alt="image/ก๋วยเตี๋ยวเรือหมู"
+                class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ก๋วยเตี๋ยวเรือหมู</h2>
+            <p class="text-blue-600 font-bold mt-3">50 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/สุกี้น้ำ.jpg" alt="image/สุกี้น้ำ.jpg" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">สุกี้น้ำ</h2>
+            <p class="text-blue-600 font-bold mt-3">50 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/เย็นตาโฟ.jpg" alt="image/เย็นตาโฟ" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">เย็นตาโฟ</h2>
+            <p class="text-blue-600 font-bold mt-3">50 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ผัดไทยกุ้งสด.jpg" alt="image/ผัดไทยกุ้งสด" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ผัดไทยกุ้งสด</h2>
+            <p class="text-blue-600 font-bold mt-3">50 บาท</p>
+        </div>
+    </div>
+
+    <div class="text-amber-900 lg:text-2xl md:text-xl sm:text-lg font-bold text-center mt-6">
+        ของหวาน
+    </div>
+    <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/กล้วยบวชชี.jpg" alt="image/กล้วยบวชชี" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">กล้วยบวชชี</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ขนมชั้นใบเตย.jpg" alt="image/ขนมชั้นใบเตย" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ขนมชั้นใบเตย</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ทับทิมกรอบ.jpg" alt="image/ทับทิมกรอบ" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ทับทิมกรอบ</h2>
+            <p class="text-blue-600 font-bold mt-3">40 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ไอศกรีมกะทิ.jpg" alt="image/ไอศกรีมกะทิ" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ไอศกรีมกะทิ</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ข้าวเหนียวมะม่วง.jpg" alt="image/ข้าวเหนียวมะม่วง class=" w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ข้าวเหนียวมะม่วง</h2>
+            <p class="text-blue-600 font-bold mt-3">60 บาท</p>
+        </div>
+    </div>
+
+    <div class="text-amber-900 lg:text-2xl md:text-xl sm:text-lg font-bold text-center mt-6">
+        เครื่องดื่ม
+    </div>
+    <div class="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 gap-3">
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ชาเขียวนมเย็น.jpg" alt="image/ชาเขียวนมเย็น" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ชาเขียวนมเย็น</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ชาไทยเย็น.jpg" alt="image/ชาไทยเย็น" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ชาไทยเย็น</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/ชามะนาว.jpg" alt="image/ชามะนาว" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">ชามะนาว</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/นมชมพู.jpg" alt="image/นมชมพู" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">นมชมพู</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-4 m-4">
+            <img src="image/โกโก้เย็น.jpg" alt="image/โกโก้เย็น" class="w-full h-58 object-cover rounded">
+            <h2 class="text-xl font-semibold mt-4">โกโก้เย็น</h2>
+            <p class="text-blue-600 font-bold mt-3">30 บาท</p>
+        </div>
+    </div>
+</body>
+
+</html>
